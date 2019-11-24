@@ -1,0 +1,19 @@
+useEffect(()=>{
+    async function getData() {
+      return await editPost(objj).then(res => console.log(res.data))
+    };
+    getData();
+  },[]);
+
+
+const objj = {
+  title: "Random Title",
+  author: "Random Author",
+  date: "18-11-2019",
+  body: "<h1>Retard Kid</h1>",
+  category: "Home123",
+  id: 1
+}
+
+
+import { getPosts, newPost, editPost } from "../../server/server";

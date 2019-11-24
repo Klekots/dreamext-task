@@ -1,0 +1,20 @@
+aside div{
+  width: 15%;
+  float: left;
+}
+
+aside div ul li{
+  list-style-type: none;
+}
+
+aside div ul li a{
+  display: block;
+  padding: 20px;
+  color: black;
+}
+
+aside div a:hover{
+  background: grey;
+  text-decoration: none;
+  transition: 0.4s linear;
+}

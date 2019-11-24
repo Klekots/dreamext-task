@@ -1,0 +1,31 @@
+header>div{
+  width:60%;
+  margin:0 auto;
+}
+
+header>div ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header>div ul li{
+  list-style-type: none;
+}
+
+header>div ul li a{
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  color: black;
+  transition: 0.4s linear;
+}
+
+header>div ul li a:hover{
+  text-decoration: none;
+  display: block;
+  padding:20px;
+  background: rgba(4, 122, 4, 0.479);
+  transition: 0.4s linear;
+}

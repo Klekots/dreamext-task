@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "title": "First blood",
+      "author": "John Rembo",
+      "date": "2019-11-24",
+      "body": "<p>The story about great John Rembo</p>",
+      "category": "Other",
+      "id": 1
+    }
+  ]
+}

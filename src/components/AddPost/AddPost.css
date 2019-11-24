@@ -1,0 +1,8 @@
+.add-post{
+  float:left;
+  width: 80%;
+}
+
+.add-post-title, .add-post-author, .add-post-category, .add-post-date, .add-post-submit{
+  margin: 10px 0;
+}

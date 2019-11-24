@@ -1,0 +1,8 @@
+.edit-post{
+  float:left;
+  width: 80%;
+}
+
+.edit-post-title, .edit-post-author, .edit-post-category, .edit-post-date, .edit-post-submit{
+  margin: 10px 0;
+}

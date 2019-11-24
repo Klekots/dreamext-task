@@ -1,0 +1,15 @@
+.active-post{
+  float:left;
+  width:80%;
+}
+
+.active-post p{
+  padding:10px;
+  border-radius: 10px;
+}
+
+.body-place{
+  padding:10px;
+  background: rgba(255, 0, 0, 0.397);
+  border-radius: 10px;
+}

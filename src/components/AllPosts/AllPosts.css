@@ -1,0 +1,26 @@
+div.all-posts ul{
+  display: flex;
+  flex-direction: column;
+}
+
+div.all-posts ul li{
+  list-style-type: none;
+  padding: 20px;
+  margin:10px 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+div.all-posts ul li:hover{
+  background: #1cbb3777;
+}
+
+div.all-posts ul a{
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn-delete-custom{
+  margin-left: auto;
+}
