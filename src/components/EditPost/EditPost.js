@@ -109,7 +109,7 @@ const EditPost = (props) => {
     else{
       return(
         <>
-          <p>Empty Post</p>
+          <p className="alert-danger uknown-post">Post not found</p>
         </>
       )
     }
